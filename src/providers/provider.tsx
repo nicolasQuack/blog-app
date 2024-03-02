@@ -3,12 +3,11 @@ import { ThemeProvider } from "./all-providers/theme-provider"
 
 type ProvidersProps = {
     children: React.ReactNode;
-    props: ThemeProviderProps;
 }
 
-export function Providers({ children, ...props }: ProvidersProps) {
+export function Providers({ children }: ProvidersProps) {
     return (
-        <ThemeProvider {...props}>
+        <ThemeProvider >
             {children}
         </ThemeProvider>
     )
