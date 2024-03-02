@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import { inter } from "@/styles/fonts";
 import { Providers } from "@/providers/provider";
+import { ThemeProvider } from "@/providers/all-providers/theme-provider";
 
 export default function RootLayout({
   children,
@@ -8,13 +9,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${inter.className}`} >
         <Providers props={{
-          enableSystem: true,
-          defaultTheme: "system",
           attribute: "class",
-        }}>
+          defaultTheme: "system",
+          enableSystem: true,
+          themes: ["light", "dark"],
+        }}
+        >
           {children}
         </Providers>
       </body>
