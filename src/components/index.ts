@@ -1,3 +1,3 @@
 export * from "./Modal";
-export * from "./Auth-form";
+export * from "./Signup-Form";
 export * from "./ModeToggle";
