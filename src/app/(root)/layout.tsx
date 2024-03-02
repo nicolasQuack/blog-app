@@ -11,13 +11,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.className}`} >
-        <Providers props={{
-          attribute: "class",
-          defaultTheme: "system",
-          enableSystem: true,
-          themes: ["light", "dark"],
-        }}
-        >
+        <Providers>
           {children}
         </Providers>
       </body>
