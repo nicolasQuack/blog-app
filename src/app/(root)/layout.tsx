@@ -1,5 +1,6 @@
 import "@/styles/globals.css";
 import { inter } from "@/styles/fonts";
+import { Providers } from "@/providers/provider";
 
 export default function RootLayout({
   children,
@@ -8,8 +9,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-slate-300`} >
-        {children}
+      <body className={`${inter.className}`} >
+        <Providers props={{
+          enableSystem: true,
+          defaultTheme: "system",
+          attribute: "class",
+        }}>
+          {children}
+        </Providers>
       </body>
     </html >
   );
