@@ -1,17 +1,17 @@
-import { AuthForm, Modal, ModeToggle } from "@/components"
+import { SignUpForm, Modal, ModeToggle } from "@/components"
 
 export default function Page() {
     return (
-        <main className="flex justify-center items-center h-screen">
-            <div className="">
-                <div className="space-y-16">
-                    <Modal>
-                        <div className="w-full flex justify-end">
-                            <ModeToggle />
-                        </div>
-                        <AuthForm />
-                    </Modal>
+        <main className="">
+            <div className="absolute">
+                <div className="flex p-4 w-screen justify-end">
+                    <ModeToggle align="end" />
                 </div>
+            </div>
+            <div className="flex w-screen h-screen justify-center items-center">
+                <Modal>
+                    <SignUpForm />
+                </Modal>
             </div>
         </main>
     )
