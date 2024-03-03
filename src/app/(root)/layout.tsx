@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import { inter } from "@/styles/fonts";
 import { Providers } from "@/providers/provider";
-import { ThemeProvider } from "@/providers/all-providers/theme-provider";
+import { HomeHeader } from "@/components";
 
 export default function RootLayout({
   children,
@@ -10,11 +10,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className}`} >
+      <body className={`${inter.className} bg-background`}>
         <Providers>
           {children}
         </Providers>
       </body>
-    </html >
+    </html>
   );
 }
