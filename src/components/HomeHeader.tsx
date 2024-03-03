@@ -2,7 +2,7 @@
 
 import { ModeToggle } from "."
 import { LogoButton } from "./LogoButton"
-import { SignupButton } from "./SignupButton"
+import { DefaultButton } from "./DefaultButton"
 
 export function HomeHeader() {
     return (
@@ -16,7 +16,7 @@ export function HomeHeader() {
 
                 </div>
                 <div className="flex justify-end space-x-4">
-                    <SignupButton />
+                    <DefaultButton href="/signup" title="Sign Up" />
                     <ModeToggle />
                 </div>
             </div>
