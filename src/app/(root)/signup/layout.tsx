@@ -1,5 +1,10 @@
 import { Modal, ModeToggle } from "@/components";
 import { LogoButton } from "@/components/LogoButton";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Sign Up",
+}
 
 export default function Layout({ children }: Readonly<{ children: React.ReactNode }>) {
     return (

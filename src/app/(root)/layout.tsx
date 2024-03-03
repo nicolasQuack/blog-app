@@ -1,7 +1,15 @@
 import "@/styles/globals.css";
 import { inter } from "@/styles/fonts";
 import { Providers } from "@/providers/provider";
-import { HomeHeader } from "@/components";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: {
+    template: 'NewBlog | %s',
+    default: 'NewBlog'
+  },
+}
+
 
 export default function RootLayout({
   children,
