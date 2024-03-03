@@ -1,5 +1,4 @@
-import { SignUpForm, Modal, ModeToggle } from "@/components"
-import { LogoButton } from "@/components/LogoButton"
+import { SignUpForm } from "@/components"
 
 export default function Page() {
     return (
