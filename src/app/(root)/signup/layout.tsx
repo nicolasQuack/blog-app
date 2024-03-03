@@ -1,5 +1,7 @@
-import { Modal, ModeToggle } from "@/components";
+import { DefaultButton, HomeHeader, Modal, ModeToggle } from "@/components";
 import { LogoButton } from "@/components/LogoButton";
+import { SignUpHeader } from "@/components/SignUpHeader";
+import { Button } from "@/components/ui/button";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -9,11 +11,8 @@ export const metadata: Metadata = {
 export default function Layout({ children }: Readonly<{ children: React.ReactNode }>) {
     return (
         <main>
-            <div className="absolute ">
-                <div className="flex p-4 w-screen justify-between">
-                    <LogoButton href="/" />
-                    <ModeToggle align="end" />
-                </div>
+            <div className="absolute">
+                <SignUpHeader />
             </div>
             <div className="flex w-screen h-screen justify-center items-center">
                 <Modal>
