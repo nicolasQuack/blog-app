@@ -20,7 +20,7 @@ export function DefaultButton({ href, title, className, variant }: HomeHeaderPro
                     : "bg-blue-600 px-5 text-white"}
                 onClick={() => router.push(href)}
             >
-                {title}
+                <span className="select-none">{title}</span>
             </Button>
         </div >
     )
