@@ -10,7 +10,7 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 export function SignUpForm() {
     return (
-        <div className="mx-auto max-w-sm space-y-8">
+        <div className="mx-auto max-w-sm space-y-8 select-none">
             <div className="space-y-2 text-center">
                 <h1 className="text-3xl font-bold">Sign Up</h1>
                 <p className="text-gray-500 dark:text-gray-400">
