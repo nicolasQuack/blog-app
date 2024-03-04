@@ -20,13 +20,16 @@ export function MainContent() {
                         <h1 className="text-7xl font-bold">
                             Think, Write and Share.
                         </h1>
-                        <p className="text-lg font-normal">A web blog developed and designed to give you an <span className="underline-offset-4 underline">enjoyable browsing experience</span>. by Nicolas Florencio Felipe.</p>
+                        <div className="text-lg font-normal">
+                            <p >A web blog developed and designed to give you an <span className="underline-offset-4 underline">enjoyable browsing experience</span>.</p>
+                            <p className="text-stone-500">by Nicolas Florencio Felipe.</p>
+                        </div>
                     </div>
                 </div>
                 <div>
                     <DefaultButton href="/signup" title="Get your free account here" className="py-7 px-14 text-white bg-blue-500" variant={"outline"} />
                 </div>
-            </div>
+            </div >
         </>
     )
 }
