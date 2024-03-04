@@ -1,7 +1,5 @@
-import { DefaultButton, HomeHeader, Modal, ModeToggle } from "@/components";
-import { LogoButton } from "@/components/LogoButton";
+import { Modal } from "@/components";
 import { SignUpHeader } from "@/components/SignUpHeader";
-import { Button } from "@/components/ui/button";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
