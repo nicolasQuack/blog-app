@@ -1,3 +1,4 @@
+import { Variant } from "@/utils/types";
 import { Button } from "./ui/button";
 import { useRouter } from "next/navigation";
 
@@ -5,7 +6,7 @@ interface HomeHeaderProps {
     href: string;
     title: string;
     className?: string;
-    variant?: any;
+    variant?: Variant;
 }
 
 export function DefaultButton({ href, title, className, variant }: HomeHeaderProps) {
