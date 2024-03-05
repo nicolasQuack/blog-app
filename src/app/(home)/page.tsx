@@ -1,11 +1,15 @@
-import { HomeHeader, MainContent, Posts } from "./_component";
+import { HomeHeader, Posts, Start, Creators, End, Idea, Tech } from "./_component";
 
 export default function Home() {
   return (
     <main>
       <HomeHeader />
-      <MainContent />
+      <Start />
       <Posts />
+      <Idea />
+      <Tech />
+      <Creators />
+      <End />
     </main>
   );
 }
