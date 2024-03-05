@@ -4,3 +4,4 @@ module.exports = {
     autoprefixer: {},
   },
 };
+// Path: tailwind.config.js
