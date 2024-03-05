@@ -3,7 +3,7 @@
 import { DefaultButton } from "@/components";
 import Image from "next/image";
 
-export function MainContent() {
+export function Start() {
     return (
         <>
             <div className="h-screen flex flex-col justify-center items-center space-y-12">
@@ -27,7 +27,7 @@ export function MainContent() {
                     </div>
                 </div>
                 <div>
-                    <DefaultButton href="/signup" title="Get your free account here" className="py-7 px-14 text-white bg-blue-500" variant={"outline"} />
+                    <DefaultButton href="/" title="Learn More About Project" className="py-7 px-14 text-white bg-blue-500" variant={"outline"} />
                 </div>
             </div >
         </>
