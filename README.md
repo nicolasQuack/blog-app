@@ -5,6 +5,7 @@ Developed by Nicolas Florencio Felipe with **Next.js**.
 
 ## Roadmap
 
+- [ ] Rever a função do personagem temático.
 - [ ] Build home page.
 - [ ] Create account.
 - [ ] Account auth.
