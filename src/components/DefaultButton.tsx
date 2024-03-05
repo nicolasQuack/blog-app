@@ -1,3 +1,5 @@
+'use client'
+
 import { Variant } from "@/utils/types";
 import { Button } from "./ui/button";
 import { useRouter } from "next/navigation";
