@@ -8,6 +8,9 @@ export const metadata: Metadata = {
     template: 'NewBlog | %s',
     default: 'NewBlog'
   },
+  icons: {
+    icon: '/images/favicon.ico',
+  },
 }
 
 export default function RootLayout({
