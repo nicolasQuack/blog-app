@@ -166,7 +166,7 @@ export function NavMenu() {
                 <NavigationMenuList className="space-x-2">
                     {props.map((component) => (
                         <NavigationMenuItem key={component.title}>
-                            <NavigationMenuTrigger className="shadow dark:shadow-primary-foreground">
+                            <NavigationMenuTrigger className="shadow shadow-input">
                                 {component.title}
                             </NavigationMenuTrigger>
                             <NavigationMenuContent className="">
@@ -184,7 +184,7 @@ export function NavMenu() {
                                         </Modal>
                                     </div>
                                     <div className="grid grid-row-3 gap-3 w-full h-full ">
-                                        <DefaultButton className="w-full h-full" href="#" title={component.title} />
+                                        <DefaultButton className="w-full h-full" href="#post" title={component.title} />
                                         <DefaultButton className="w-full h-full" href="#" title={component.title} />
                                         <DefaultButton className="w-full h-full" href="#" title={component.title} />
                                     </div>
