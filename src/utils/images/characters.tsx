@@ -1,41 +1,44 @@
 "use client";
 
 import Image from "next/image";
+import DarkCharacter from "../../../public/images/character/dark.svg";
+import LightCharacter from "../../../public/images/character/light.svg";
 import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
 
 export function ThemedCharacter() {
     const { theme, systemTheme } = useTheme();
+    const [currentTheme, setCurrentTheme] = useState(theme);
 
-    if (theme === "dark") return <DarkCharacter />;
-    else if (theme === "light") return <LightCharacter />;
-    else if (systemTheme === "dark") return <DarkCharacter />;
-    else return <LightCharacter />;
+    useEffect(() => {
+
+        if (theme === "system") {
+            if (systemTheme === "light") setCurrentTheme("light");
+
+            else setCurrentTheme("dark");
+
+        } else {
+            setCurrentTheme(theme);
+        }
+
+    }, [theme, systemTheme]);
+
+    return Character(currentTheme!);
+
 }
 
-export function LightCharacter() {
+export function Character(theme: string) {
     return (
-        <div suppressHydrationWarning>
+        <div>
             <Image
                 quality={100}
                 priority
-                src={`/images/character/light.png`}
-                width={300}
-                height={300}
-                alt="light character of not found"
+                src={theme === "light" ? LightCharacter : DarkCharacter}
+                className="h-auto w-80"
+                width={0}
+                height={0}
+                alt="character of not found"
             />
         </div>
-    );
-}
-
-export function DarkCharacter() {
-    return (
-        <Image
-            quality={100}
-            priority
-            src={`/images/character/dark.png`}
-            width={300}
-            height={300}
-            alt="dark character of not found"
-        />
     );
 }
