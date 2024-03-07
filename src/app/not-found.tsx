@@ -12,11 +12,10 @@ export default function Page() {
                         <ThemedCharacter />
                     </div>
                     <h1 className="text-2xl font-bold">Page not found</h1>
-                    <p className="text-stone-500">we are probably working on it!</p>
+                    <p className="text-gray-500">we are probably working on it!</p>
                 </div>
                 <div className="flex items-center justify-center space-x-6">
                     <DefaultButton href="/" variant="destructive" title="Back to menu" />
-                    <ModeToggle />
                 </div>
             </div>
         </div>
