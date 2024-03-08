@@ -1,9 +1,8 @@
-import { Modal } from "@/components";
 import Image from "next/image";
 
 export function Idea() {
     return (
-        <div className="border h-[3328px] py-24  ">
+        <div className="h-[3328px] py-24  ">
             <div className="h-full w-full flex justify-center ">
                 <div className=" h-full w-[1512px]">
                     <div className="space-y-2 flex flex-col h-full w-full select-none">
@@ -13,9 +12,9 @@ export function Idea() {
                         </div>
                         <div className="h-[600px] w-full px-24 space-x-12 flex ">
                             <div className=" h-full w-full flex justify-end items-center">
-                                <div className="h-[350px] w-[500px] -rotate-6 rounded-lg bg-gradient-to-br from-sky-300 to-yellow-200 shadow">
-                                    <div className="h-[350px] w-[500px] bg-white shadow rounded-lg rotate-6">
-
+                                <div className="h-[300px] w-[450px] rotate-6 rounded-lg bg-gradient-to-br from-sky-300 to-yellow-200 shadow">
+                                    <div className="h-[300px] w-[450px] shadow rounded-lg -rotate-6 overflow-clip">
+                                        <Image className="pointer-events-none" src={"/images/examples/image1.png"} alt="" fill />
                                     </div>
                                 </div>
                             </div>
@@ -35,9 +34,9 @@ export function Idea() {
                             </div>
                             <div className=" h-full w-full flex justify-start items-center">
                                 <div className="h-fit">
-                                    <div className="h-[350px] w-[500px] rotate-6 rounded-lg bg-gradient-to-br from-sky-300 to-yellow-200 shadow">
-                                        <div className="h-[350px] w-[500px] bg-white shadow rounded-lg -rotate-6">
-
+                                    <div className="h-[300px] w-[450px] -rotate-6 rounded-lg bg-gradient-to-br from-sky-300 to-yellow-200 shadow">
+                                        <div className="h-[300px] w-[450px] shadow rounded-lg rotate-6 overflow-clip">
+                                            <Image className="pointer-events-none" src={"/images/examples/image2.png"} alt="" fill />
                                         </div>
                                     </div>
                                 </div>
@@ -46,9 +45,9 @@ export function Idea() {
                         <div className="h-[600px] w-full px-24 space-x-12 flex ">
                             <div className=" h-full w-full flex justify-end items-center">
                                 <div className="h-fit">
-                                    <div className="h-[350px] w-[500px] -rotate-6 rounded-lg bg-gradient-to-br from-sky-300 to-yellow-200 shadow">
-                                        <div className="h-[350px] w-[500px] bg-white shadow rounded-lg rotate-6">
-
+                                    <div className="h-[300px] w-[450px] rotate-6 rounded-lg bg-gradient-to-br from-sky-300 to-yellow-200 shadow">
+                                        <div className="h-[300px] w-[450px] shadow rounded-lg -rotate-6 overflow-clip">
+                                            <Image className="pointer-events-none" src={"/images/examples/image3.png"} alt="" fill />
                                         </div>
                                     </div>
                                 </div>
@@ -69,9 +68,9 @@ export function Idea() {
                             </div>
                             <div className=" h-full w-full flex justify-start items-center">
                                 <div className="h-fit">
-                                    <div className="h-[350px] w-[500px] rotate-6 rounded-lg bg-gradient-to-br from-sky-300 to-yellow-200 shadow">
-                                        <div className="h-[350px] w-[500px] bg-white shadow rounded-lg -rotate-6">
-
+                                    <div className="h-[300px] w-[450px] -rotate-6 rounded-lg bg-gradient-to-br from-sky-300 to-yellow-200 shadow">
+                                        <div className="h-[300px] w-[450px] shadow rounded-lg rotate-6 overflow-clip">
+                                            <Image className="pointer-events-none" src={"/images/examples/image4.png"} alt="" fill />
                                         </div>
                                     </div>
                                 </div>
@@ -80,9 +79,9 @@ export function Idea() {
                         <div className="h-[600px] w-full px-24 space-x-12 flex ">
                             <div className=" h-full w-full flex justify-end items-center">
                                 <div className="h-fit">
-                                    <div className="h-[350px] w-[500px] -rotate-6 rounded-lg bg-gradient-to-br from-sky-300 to-yellow-200 shadow">
-                                        <div className="h-[350px] w-[500px] bg-white shadow rounded-lg rotate-6">
-
+                                    <div className="h-[300px] w-[450px] rotate-6 rounded-lg bg-gradient-to-br from-sky-300 to-yellow-200 shadow">
+                                        <div className="h-[300px] w-[450px] shadow rounded-lg -rotate-6 overflow-clip">
+                                            <Image className="pointer-events-none" src={"/images/examples/image5.png"} alt="" fill />
                                         </div>
                                     </div>
                                 </div>
