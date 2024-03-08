@@ -8,6 +8,9 @@ export const metadata: Metadata = {
     template: 'NewBlog | %s',
     default: 'NewBlog'
   },
+  icons: {
+    icon: '/images/favicon.ico',
+  },
 }
 
 export default function RootLayout({
@@ -17,8 +20,8 @@ export default function RootLayout({
 }>) {
 
   return (
-    <html lang="en" suppressHydrationWarning className="no-scrollbar">
-      <body suppressHydrationWarning className={`${inter.className} bg-background `}>
+    <html lang="en" suppressHydrationWarning className="no-scrollbar scroll-smooth">
+      <body suppressHydrationWarning className={`${inter.className} bg-background`}>
         <Providers>
           {children}
         </Providers>

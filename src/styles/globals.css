@@ -84,12 +84,28 @@
   .animate-hidden-up {
     opacity: 0;
     transform: translateY(-50px);
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    visibility: collapse;
+    transition: opacity 0.7s ease-in-out, transform 0.7s ease-in-out,
+      visibility 0.7s ease-in-out;
   }
 
   .animate-hidden-up-show {
     opacity: 1;
     transform: translateY(0);
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transition: opacity 1.4s ease-in-out, transform 0.7s ease-in-out;
+  }
+
+  .animate-nav-menu-end {
+    transform: translateY(10px);
+    transition: transform 0.7s ease-in-out;
+  }
+
+  .animate-nav-menu-start {
+    transform: translateY(0);
+    transition: transform 0.7s ease-in-out;
+  }
+
+  .grid-cols-3 {
+    grid-column: span 3 / span 3;
   }
 }

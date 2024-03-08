@@ -13,7 +13,7 @@ export function SignUpForm() {
         <div className="mx-auto max-w-sm space-y-8 select-none">
             <div className="space-y-2 text-center">
                 <h1 className="text-3xl font-bold">Sign Up</h1>
-                <p className="text-gray-500 dark:text-gray-400">
+                <p className="text-muted-foreground ">
                     Enter your information to create an account
                 </p>
             </div>
@@ -29,7 +29,7 @@ export function SignUpForm() {
             <div className="space-y-4">
                 <Button className="w-full">Send Magic Link</Button>
 
-                <p className="text-center text-sm text-gray-500 dark:text-gray-400">
+                <p className="text-center text-sm text-muted-foreground">
                     Or sign up with
                 </p>
                 <div className="flex justify-center">
