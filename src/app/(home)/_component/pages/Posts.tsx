@@ -13,8 +13,8 @@ export function Posts() {
                     <div className="flex w-full h-full flex-col p-2 space-y-2">
                         <Input className="rounded-lg bg-background placeholder:text-muted-foreground/40" placeholder="Search for a topic" />
                         <h3 className="text-sm text-muted-foreground/40">Featured topics</h3>
-                        <div className="w-full h-full bg-background rounded-lg p-2 overflow-scroll no-scrollbar flex flex-col space-y-2">
-                            {Array(7).fill(0).map((_, i) => Card("w-full"))}
+                        <div className=" w-full h-full bg-background rounded-lg p-2 overflow-scroll no-scrollbar snap-y flex flex-col space-y-2">
+                            {Array(11).fill(0).map((_, i) => Card("w-full snap-center"))}
                         </div>
                     </div>
                 </div>
