@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export function Idea() {
     return (
-        <div className="h-[3328px] py-24  ">
+        <div className="border h-[3328px]">
             <div className="h-full w-full flex justify-center ">
                 <div className=" h-full w-[1512px]">
-                    <div className="space-y-2 flex flex-col h-full w-full select-none">
+                    <div className="flex flex-col justify-center items-center h-full w-full select-none">
                         <div className="h-fit w-full  flex flex-col items-center justify-center space-y-2">
                             <h2 className="text-4xl font-bold">New era of social media.</h2>
                             <p className="text-xl font-medium text-muted-foreground">A single app for everything you need.</p>
