@@ -13,6 +13,7 @@ export default function Home() {
           <Start />
           <Idea />
           <Posts />
+          <Tech />
         </div>
       </div>
     </main>
