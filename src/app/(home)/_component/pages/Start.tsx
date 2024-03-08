@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function Start() {
     return (
-        <div className="flex flex-col justify-center items-center border h-[900px] select-none">
+        <div className="flex flex-col justify-center items-center h-[900px] select-none">
             <div className="flex space-x-5 h-1/2 lg:w-[900px]">
                 <div className="size-full">
                     <Image className="pointer-events-none" src="/images/template.svg" alt="logo template" width={500} height={500} />
