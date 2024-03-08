@@ -47,7 +47,7 @@ const props: NavigationMenuProps[] = [
         ]
     },
     {
-        title: "Posts",
+        title: "Idea",
         href: "/about",
         items: [
             {
@@ -69,7 +69,7 @@ const props: NavigationMenuProps[] = [
         ]
     },
     {
-        title: "Idea",
+        title: "Posts",
         href: "/account",
         items: [
             {
