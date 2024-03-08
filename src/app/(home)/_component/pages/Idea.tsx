@@ -13,8 +13,10 @@ export function Idea() {
                         </div>
                         <div className="h-[600px] w-full px-24 space-x-12 flex ">
                             <div className=" h-full w-full flex justify-end items-center">
-                                <div className="h-[350px] w-[500px]  rounded-lg bg-gradient-to-br from-sky-300 to-yellow-200 shadow">
+                                <div className="h-[350px] w-[500px] -rotate-6 rounded-lg bg-gradient-to-br from-sky-300 to-yellow-200 shadow">
+                                    <div className="h-[350px] w-[500px] bg-white shadow rounded-lg rotate-6">
 
+                                    </div>
                                 </div>
                             </div>
                             <div className=" h-full w-full flex justify-start items-center">
@@ -33,8 +35,10 @@ export function Idea() {
                             </div>
                             <div className=" h-full w-full flex justify-start items-center">
                                 <div className="h-fit">
-                                    <div className="h-[350px] w-[500px]  rounded-lg bg-gradient-to-br from-yellow-200 to-sky-300 shadow">
+                                    <div className="h-[350px] w-[500px] rotate-6 rounded-lg bg-gradient-to-br from-sky-300 to-yellow-200 shadow">
+                                        <div className="h-[350px] w-[500px] bg-white shadow rounded-lg -rotate-6">
 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -42,8 +46,10 @@ export function Idea() {
                         <div className="h-[600px] w-full px-24 space-x-12 flex ">
                             <div className=" h-full w-full flex justify-end items-center">
                                 <div className="h-fit">
-                                    <div className="h-[350px] w-[500px]  rounded-lg bg-gradient-to-br from-sky-300 to-yellow-200 shadow">
+                                    <div className="h-[350px] w-[500px] -rotate-6 rounded-lg bg-gradient-to-br from-sky-300 to-yellow-200 shadow">
+                                        <div className="h-[350px] w-[500px] bg-white shadow rounded-lg rotate-6">
 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -63,8 +69,10 @@ export function Idea() {
                             </div>
                             <div className=" h-full w-full flex justify-start items-center">
                                 <div className="h-fit">
-                                    <div className="h-[350px] w-[500px]  rounded-lg bg-gradient-to-br from-yellow-200 to-sky-300 shadow">
+                                    <div className="h-[350px] w-[500px] rotate-6 rounded-lg bg-gradient-to-br from-sky-300 to-yellow-200 shadow">
+                                        <div className="h-[350px] w-[500px] bg-white shadow rounded-lg -rotate-6">
 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -72,8 +80,10 @@ export function Idea() {
                         <div className="h-[600px] w-full px-24 space-x-12 flex ">
                             <div className=" h-full w-full flex justify-end items-center">
                                 <div className="h-fit">
-                                    <div className="h-[350px] w-[500px]  rounded-lg bg-gradient-to-br from-sky-300 to-yellow-200 shadow">
+                                    <div className="h-[350px] w-[500px] -rotate-6 rounded-lg bg-gradient-to-br from-sky-300 to-yellow-200 shadow">
+                                        <div className="h-[350px] w-[500px] bg-white shadow rounded-lg rotate-6">
 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
