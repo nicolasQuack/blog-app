@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Idea() {
     return (
-        <div className="border h-[3328px]">
+        <div className="h-[3328px]">
             <div className="h-full w-full flex justify-center ">
                 <div className=" h-full w-[1512px]">
                     <div className="flex flex-col justify-center items-center h-full w-full select-none">
